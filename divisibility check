@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    int a,x,y;
+    scanf("%d%d%d",&a,&x,&y);
+    if(a%x==0 && a%y==0){
+        printf("Yes.");
+    }
+    else
+        printf("No.");
+    return 0;
+}
